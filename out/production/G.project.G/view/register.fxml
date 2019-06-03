@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="292.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <Label layoutX="15.0" layoutY="14.0" text="დაამატეთ ცხოველები">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="reg_Name" layoutX="64.0" layoutY="68.0" promptText="სახელი" />
+      <ComboBox fx:id="reg_Gender" layoutX="64.0" layoutY="101.0" prefWidth="150.0" />
+      <TextField fx:id="reg_Type" layoutX="65.0" layoutY="134.0" promptText="ჯიში-ტიპი" />
+      <TextField fx:id="reg_Age" layoutX="64.0" layoutY="169.0" promptText="ასაკი" />
+      <Button fx:id="reg_Add" layoutX="103.0" layoutY="212.0" mnemonicParsing="false" onAction="#reg_button" text="დამატება" />
+   </children>
+</AnchorPane>

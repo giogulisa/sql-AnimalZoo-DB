@@ -1,0 +1,18 @@
+2019-06-03 13:36:49 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
+2019-06-03 13:36:52 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 13:40:48 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 13:45:13 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 13:45:28 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=4, name='ვეფხვანჩო', type='ვეფხვი', gender='მამრობითი', age=13}
+2019-06-03 15:45:39 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:00:18 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:01:27 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:16:41 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:17:28 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:17:42 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=7, name='datucha', type='datvi', gender='მამრობითი', age=23}
+2019-06-03 16:20:37 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=8, name='druncha', type='datvi', gender='მამრობითი', age=23}
+2019-06-03 16:34:47 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
+2019-06-03 16:34:53 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:37:16 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
+2019-06-03 16:37:22 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-03 16:38:39 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
+2019-06-03 16:38:43 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
