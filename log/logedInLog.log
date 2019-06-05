@@ -1,4 +1,5 @@
-2019-06-03 13:36:49 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
-2019-06-03 16:34:47 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
-2019-06-03 16:37:16 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
-2019-06-03 16:38:39 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
+2019-06-05 18:33:23 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admin password ADMIN
+2019-06-05 18:33:40 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admin password ADMIN
+2019-06-05 18:58:39 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admi password admin
+2019-06-05 20:02:50 ERROR SqlExceptionHelper:131 - Invalid object name 'AppUser'.
+2019-06-05 20:03:09 ERROR SqlExceptionHelper:131 - Invalid object name 'AppUser'.

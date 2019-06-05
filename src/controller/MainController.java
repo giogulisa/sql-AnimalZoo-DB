@@ -13,6 +13,7 @@ import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
 public class MainController {
+
     public TextField main_username;
     public PasswordField main_password;
     public Label main_LoginFailed;
@@ -33,7 +34,7 @@ public class MainController {
                 Parent root1 = FXMLLoader.load(getClass().getResource("../view/register.fxml"));
                 newStage.setTitle("Add Animals");
                 newStage.getIcons().add(new Image("view/zoo.png"));
-                newStage.setScene(new Scene(root1, 370, 256));
+                newStage.setScene(new Scene(root1, 443, 288));
                 newStage.show();
                 // აქამდე რა ფორმაც იყო იმ ფორმის დახურვა
                 ((Node) (actionEvent.getSource())).getScene().getWindow().hide();

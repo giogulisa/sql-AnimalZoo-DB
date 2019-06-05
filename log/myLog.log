@@ -1,18 +1,185 @@
-2019-06-03 13:36:49 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
-2019-06-03 13:36:52 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 13:40:48 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 13:45:13 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 13:45:28 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=4, name='ვეფხვანჩო', type='ვეფხვი', gender='მამრობითი', age=13}
-2019-06-03 15:45:39 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:00:18 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:01:27 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:16:41 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:17:28 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:17:42 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=7, name='datucha', type='datvi', gender='მამრობითი', age=23}
-2019-06-03 16:20:37 INFO  MainController:17 - ბაზაში დაემატაAnimal{id=8, name='druncha', type='datvi', gender='მამრობითი', age=23}
-2019-06-03 16:34:47 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admin password admi
-2019-06-03 16:34:53 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:37:16 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
-2019-06-03 16:37:22 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
-2019-06-03 16:38:39 ERROR MainController:43 - სისტემაში არასწორი შესვლა user: admi password admin
-2019-06-03 16:38:43 INFO  MainController:29 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:20:29 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:20:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:20:29 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:20:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:20:29 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:20:29 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:20:29 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:20:29 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:20:29 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:20:30 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:20:30 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:20:31 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:20:31 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:20:34 INFO  MainController:36 - მომხარებელი Label[id=reg_user1, styleClass=label]'admin' სიტემიდან გავიდა
+2019-06-05 18:20:39 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:20:39 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:20:39 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:20:39 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:20:39 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:20:39 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:20:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:20:40 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:20:40 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი gio
+2019-06-05 18:33:21 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:33:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:33:21 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:33:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:33:21 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:33:22 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:33:22 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:33:22 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:33:22 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:33:22 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:33:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:33:23 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:33:23 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admin password ADMIN
+2019-06-05 18:33:40 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:33:40 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:33:40 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:33:40 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:33:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:33:40 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:33:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:33:40 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:33:40 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admin password ADMIN
+2019-06-05 18:34:33 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:34:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:34:33 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:34:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:34:33 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:34:33 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:34:33 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:34:33 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:34:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:34:34 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:34:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:34:34 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:34:34 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:34:56 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:34:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:34:56 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:34:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:34:56 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:34:56 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:34:56 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:34:56 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:34:56 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:34:57 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:34:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:34:58 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:34:58 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:35:31 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:35:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:35:31 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:35:31 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:35:31 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:35:32 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:35:32 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:35:32 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:35:32 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:35:32 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:35:33 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:35:33 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:35:33 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:35:47 INFO  MainController:36 - მომხარებელი Label[id=reg_user1, styleClass=label]'admin' სიტემიდან გავიდა
+2019-06-05 18:35:53 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:35:53 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:35:53 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:35:53 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:35:53 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:35:53 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:35:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:35:53 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:35:53 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი gio
+2019-06-05 18:58:37 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 18:58:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 18:58:37 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 18:58:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 18:58:37 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:58:37 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:58:37 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:58:38 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:58:38 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:58:38 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:58:39 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:58:39 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:58:39 ERROR MainController:44 - სისტემაში არასწორი შესვლა user: admi password admin
+2019-06-05 18:58:42 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:58:42 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:58:42 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:58:42 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:58:42 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:58:42 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:58:42 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:58:42 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:58:42 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 18:59:00 INFO  MainController:36 - მომხარებელი Label[id=reg_user1, styleClass=label]'admin' სიტემიდან გავიდა
+2019-06-05 18:59:05 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:59:05 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:59:05 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:59:05 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:59:05 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:59:05 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:59:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:59:06 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:59:06 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი gio
+2019-06-05 18:59:22 INFO  MainController:36 - მომხარებელი Label[id=reg_user1, styleClass=label]'gio' სიტემიდან გავიდა
+2019-06-05 18:59:28 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 18:59:28 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:59:28 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 18:59:28 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 18:59:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 18:59:28 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 18:59:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 18:59:28 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 18:59:28 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 20:02:48 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 20:02:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 20:02:48 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 20:02:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 20:02:49 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 20:02:49 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 20:02:49 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 20:02:49 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 20:02:49 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 20:02:50 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 20:02:50 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 20:02:50 WARN  SqlExceptionHelper:129 - SQL Error: 208, SQLState: S0002
+2019-06-05 20:02:50 ERROR SqlExceptionHelper:131 - Invalid object name 'AppUser'.
+2019-06-05 20:03:08 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 20:03:08 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 20:03:08 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 20:03:08 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 20:03:08 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 20:03:09 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 20:03:09 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 20:03:09 WARN  SqlExceptionHelper:129 - SQL Error: 208, SQLState: S0002
+2019-06-05 20:03:09 ERROR SqlExceptionHelper:131 - Invalid object name 'AppUser'.
+2019-06-05 20:04:16 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 20:04:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 20:04:16 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 20:04:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 20:04:16 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 20:04:16 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 20:04:16 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 20:04:16 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 20:04:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 20:04:17 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 20:04:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 20:04:18 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 20:04:18 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
+2019-06-05 20:04:39 INFO  MainController:36 - მომხარებელი Label[id=reg_user1, styleClass=label]'admin' სიტემიდან გავიდა
+2019-06-05 23:11:29 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-05 23:11:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-05 23:11:29 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-05 23:11:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-05 23:11:30 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-05 23:11:30 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 23:11:30 INFO  pooling:136 - HHH10001001: Connection properties: {}
+2019-06-05 23:11:30 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-05 23:11:30 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-05 23:11:31 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-05 23:11:32 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-05 23:11:32 INFO  pooling:235 - HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:49711;databaseName=TSTDB;integratedSecurity=true]
+2019-06-05 23:11:32 INFO  MainController:30 - სისტემაში შევიდა მომხმარებელი admin
